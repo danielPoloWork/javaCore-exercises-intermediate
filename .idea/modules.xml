@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cartesianApp/cartesianApp.iml" filepath="$PROJECT_DIR$/cartesianApp/cartesianApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cinemaApp/cinemaApp.iml" filepath="$PROJECT_DIR$/cinemaApp/cinemaApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/drawLines/drawLines.iml" filepath="$PROJECT_DIR$/drawLines/drawLines.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/publicProjects.iml" filepath="$PROJECT_DIR$/.idea/publicProjects.iml" />
     </modules>
