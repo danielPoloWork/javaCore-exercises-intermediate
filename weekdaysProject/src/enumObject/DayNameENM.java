@@ -1,6 +1,6 @@
 package enumObject;
 
-public enum dayNameENO {
+public enum DayNameENM {
 
   SUNDAY("Sunday is cool."),
   MONDAY("Monday is bad."),
@@ -12,7 +12,7 @@ public enum dayNameENO {
 
   private String label;
 
-  dayNameENO(String labelArg) {
+  DayNameENM(String labelArg) {
     this.label = labelArg;
   }
 

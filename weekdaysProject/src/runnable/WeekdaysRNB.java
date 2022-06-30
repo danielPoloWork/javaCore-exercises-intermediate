@@ -1,13 +1,13 @@
 package runnable;
 
-import enumObject.dayNameENO;
+import enumObject.DayNameENM;
 
-public class weekdaysRNB {
+public class WeekdaysRNB {
 
-  dayNameENO day;
+  DayNameENM day;
 
   // Constructor
-  public weekdaysRNB(dayNameENO day) {
+  public WeekdaysRNB(DayNameENM day) {
     this.day = day;
   }
 
@@ -19,11 +19,11 @@ public class weekdaysRNB {
   // Driver method
   public static void main(String[] args) {
     String dayString  = "MONDAY";
-    weekdaysRNB wdaObj = new weekdaysRNB(dayNameENO.valueOf(dayString.trim().toUpperCase()));
+    WeekdaysRNB wdaObj = new WeekdaysRNB(DayNameENM.valueOf(dayString.trim().toUpperCase()));
     wdaObj.dayIsLike();
 
-    dayNameENO[] daysArray = dayNameENO.values();
-    for (dayNameENO d : daysArray) {
+    DayNameENM[] daysArray = DayNameENM.values();
+    for (DayNameENM d : daysArray) {
       System.out.printf("Enum_%s at index %s ==> %s \n", d, d.ordinal(), d.getLabel());
     }
   }
