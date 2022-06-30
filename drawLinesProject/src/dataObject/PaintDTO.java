@@ -1,11 +1,11 @@
-/**
+package dataObject; /**
  * Java program to draw a line in Applet
  */
 
 import java.awt.*;
 import javax.swing.*;
 
-class Paint extends JComponent {
+public class PaintDTO extends JComponent {
 
   public void paint(Graphics g) {
     // draw and display the line

@@ -1,6 +1,9 @@
+package runnable;
+
+import dataObject.PaintDTO;
 import javax.swing.JFrame;
 
-public class MDrawLineFrame {
+public class DrawLineRNB {
 
   public static void main(String[] a) {
 
@@ -14,7 +17,7 @@ public class MDrawLineFrame {
     window.setBounds(30, 30, 200, 200);
 
     // setting canvas for draw
-    window.getContentPane().add(new Paint());
+    window.getContentPane().add(new PaintDTO());
 
     // set visibility
     window.setVisible(true);
