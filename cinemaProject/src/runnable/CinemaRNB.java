@@ -1,7 +1,7 @@
 package runnable;
 
-import dataObject.RoomDTO;
-import dataObject.RoomReservedSeatsDTO;
+import dataObject.RoomDTA;
+import dataObject.RoomReservedSeatsDTA;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class CinemaRNB {
 
   public static void main(String[] args) {
 
-    List<RoomDTO> roomList = setRoom();
+    List<RoomDTA> roomList = setRoom();
 
 
     System.out.println("------------------------------");
@@ -17,7 +17,7 @@ public class CinemaRNB {
     System.out.println("------------------------------");
 
     for (int a = 0; a < roomList.size(); a++) {
-      RoomReservedSeatsDTO rs = new RoomReservedSeatsDTO(roomList.get(a).movieName, roomList.get(a).rowAmount);
+      RoomReservedSeatsDTA rs = new RoomReservedSeatsDTA(roomList.get(a).movieName, roomList.get(a).rowAmount);
       rs.printPreview(a + 1);
     }
 
@@ -25,20 +25,20 @@ public class CinemaRNB {
 
   }
 
-  private static List<RoomDTO> setRoom() {
+  private static List<RoomDTA> setRoom() {
 
-    List<RoomDTO> rooms = new ArrayList<RoomDTO>();
+    List<RoomDTA> rooms = new ArrayList<RoomDTA>();
 
-    RoomDTO room01 = new RoomDTO("The lord of the rings: The fellowship of the ring", 15);
-    RoomDTO room02 = new RoomDTO("Avatar", 10);
-    RoomDTO room03 = new RoomDTO("Kill Bill", 5);
-    RoomDTO room04 = new RoomDTO("Ted", 5);
-    RoomDTO room05 = new RoomDTO("Aladdin", 5);
-    RoomDTO room06 = new RoomDTO("Kung fu panda", 5);
-    RoomDTO room07 = new RoomDTO("Blade Runner", 5);
-    RoomDTO room08 = new RoomDTO("Interstellar", 5);
-    RoomDTO room09 = new RoomDTO("47 Ronin", 5);
-    RoomDTO room10 = new RoomDTO("Last Samurai", 5);
+    RoomDTA room01 = new RoomDTA("The lord of the rings: The fellowship of the ring", 15);
+    RoomDTA room02 = new RoomDTA("Avatar", 10);
+    RoomDTA room03 = new RoomDTA("Kill Bill", 5);
+    RoomDTA room04 = new RoomDTA("Ted", 5);
+    RoomDTA room05 = new RoomDTA("Aladdin", 5);
+    RoomDTA room06 = new RoomDTA("Kung fu panda", 5);
+    RoomDTA room07 = new RoomDTA("Blade Runner", 5);
+    RoomDTA room08 = new RoomDTA("Interstellar", 5);
+    RoomDTA room09 = new RoomDTA("47 Ronin", 5);
+    RoomDTA room10 = new RoomDTA("Last Samurai", 5);
 
     rooms.add(room01);
     rooms.add(room02);
