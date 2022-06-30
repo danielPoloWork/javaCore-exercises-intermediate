@@ -1,19 +1,22 @@
+package dataObject;
+
+import dataObject.PointDTO;
 import java.awt.*;
 import javax.swing.JComponent;
 import java.util.List;
 
-public class Line extends JComponent {
+public class LineDTO extends JComponent {
 
   // DECLARATION
-  private final List<Point> points;
+  private final List<PointDTO> points;
 
   // CONSTRUCTOR
-  public Line(List<Point> pointArgs) {
+  public LineDTO(List<PointDTO> pointArgs) {
     this.points = pointArgs;
   }
 
   // GET METHODS
-  public List<Point> getPoints() {
+  public List<PointDTO> getPoints() {
     return this.points;
   }
 

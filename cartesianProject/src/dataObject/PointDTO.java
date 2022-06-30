@@ -1,11 +1,13 @@
-public class Point {
+package dataObject;
+
+public class PointDTO {
 
   // DECLARATION
   private int xAxis;
   private int yAxis;
 
   // CONSTRUCTOR
-  Point(int xAxisArg, int yAxisArg) {
+  PointDTO(int xAxisArg, int yAxisArg) {
     this.xAxis = xAxisArg;
     this.yAxis = yAxisArg;
   }
