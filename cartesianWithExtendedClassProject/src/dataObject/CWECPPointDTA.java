@@ -1,13 +1,13 @@
 package dataObject;
 
-public class CWECPPointDTO {
+public class CWECPPointDTA {
 
   // DECLARATION
   private int xAxis;
   private int yAxis;
 
   // CONSTRUCTOR
-  CWECPPointDTO(int xAxisArg, int yAxisArg) {
+  CWECPPointDTA(int xAxisArg, int yAxisArg) {
     this.xAxis = xAxisArg;
     this.yAxis = yAxisArg;
   }
