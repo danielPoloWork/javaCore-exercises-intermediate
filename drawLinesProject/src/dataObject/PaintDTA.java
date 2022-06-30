@@ -5,7 +5,7 @@ package dataObject; /**
 import java.awt.*;
 import javax.swing.*;
 
-public class PaintDTO extends JComponent {
+public class PaintDTA extends JComponent {
 
   public void paint(Graphics g) {
     // draw and display the line
