@@ -1,13 +1,13 @@
 package dataObject;
 
-public class PointDTO {
+public class PointDTA {
 
   // DECLARATION
   private int xAxis;
   private int yAxis;
 
   // CONSTRUCTOR
-  PointDTO(int xAxisArg, int yAxisArg) {
+  PointDTA(int xAxisArg, int yAxisArg) {
     this.xAxis = xAxisArg;
     this.yAxis = yAxisArg;
   }

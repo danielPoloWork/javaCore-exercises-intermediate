@@ -1,7 +1,7 @@
 package runnable;
 
-import dataObject.LineDTO;
-import dataObject.PointDTO;
+import dataObject.LineDTA;
+import dataObject.PointDTA;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.*;
@@ -10,13 +10,13 @@ public class CanvasRNB extends JComponent {
 
   public static void main(String[] args) {
 
-    List<PointDTO> coordinatesList = setCoordinates();
-    LineDTO line = new LineDTO(coordinatesList);
+    List<PointDTA> coordinatesList = setCoordinates();
+    LineDTA line = new LineDTA(coordinatesList);
 
     getWindow(line);
   }
 
-  private static void getWindow(LineDTO lineArgs) {
+  private static void getWindow(LineDTA lineArgs) {
     // creating object of JFrame(Window popup)
     JFrame window = new JFrame();
     // setting closing operation
@@ -29,36 +29,36 @@ public class CanvasRNB extends JComponent {
     window.setVisible(true);
   }
 
-  private static List<PointDTO> setCoordinates() {
-    List<PointDTO> points = new ArrayList<PointDTO>();
+  private static List<PointDTA> setCoordinates() {
+    List<PointDTA> points = new ArrayList<PointDTA>();
 
-    PointDTO d01 = new PointDTO(100,100);
-    PointDTO d02 = new PointDTO(100,600);
-    PointDTO d03 = new PointDTO(100,600);
-    PointDTO d04 = new PointDTO(400,600);
-    PointDTO d05 = new PointDTO(400,600);
-    PointDTO d06 = new PointDTO(400,300);
-    PointDTO d07 = new PointDTO(400,300);
-    PointDTO d08 = new PointDTO(100,100);
+    PointDTA d01 = new PointDTA(100,100);
+    PointDTA d02 = new PointDTA(100,600);
+    PointDTA d03 = new PointDTA(100,600);
+    PointDTA d04 = new PointDTA(400,600);
+    PointDTA d05 = new PointDTA(400,600);
+    PointDTA d06 = new PointDTA(400,300);
+    PointDTA d07 = new PointDTA(400,300);
+    PointDTA d08 = new PointDTA(100,100);
 
-    PointDTO a01 = new PointDTO(500,100);
-    PointDTO a02 = new PointDTO(500,600);
-    PointDTO a03 = new PointDTO(500,100);
-    PointDTO a04 = new PointDTO(800,100);
-    PointDTO a05 = new PointDTO(800,100);
-    PointDTO a06 = new PointDTO(800,600);
-    PointDTO a07 = new PointDTO(500,300);
-    PointDTO a08 = new PointDTO(800,300);
+    PointDTA a01 = new PointDTA(500,100);
+    PointDTA a02 = new PointDTA(500,600);
+    PointDTA a03 = new PointDTA(500,100);
+    PointDTA a04 = new PointDTA(800,100);
+    PointDTA a05 = new PointDTA(800,100);
+    PointDTA a06 = new PointDTA(800,600);
+    PointDTA a07 = new PointDTA(500,300);
+    PointDTA a08 = new PointDTA(800,300);
 
-    PointDTO n01 = new PointDTO(900,100);
-    PointDTO n02 = new PointDTO(900,600);
-    PointDTO n03 = new PointDTO(1200,100);
-    PointDTO n04 = new PointDTO(1200,600);
-    PointDTO n05 = new PointDTO(900,100);
-    PointDTO n06 = new PointDTO(1200,300);
+    PointDTA n01 = new PointDTA(900,100);
+    PointDTA n02 = new PointDTA(900,600);
+    PointDTA n03 = new PointDTA(1200,100);
+    PointDTA n04 = new PointDTA(1200,600);
+    PointDTA n05 = new PointDTA(900,100);
+    PointDTA n06 = new PointDTA(1200,300);
 
-    PointDTO i01 = new PointDTO(1300,100);
-    PointDTO i02 = new PointDTO(1300,600);
+    PointDTA i01 = new PointDTA(1300,100);
+    PointDTA i02 = new PointDTA(1300,600);
 
     points.add(d01);
     points.add(d02);
