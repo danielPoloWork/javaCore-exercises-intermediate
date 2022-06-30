@@ -1,4 +1,6 @@
-public class Room {
+package dataObject;
+
+public class RoomDTO {
 
   // DECLARATION
   protected final int ROW_SEATS_MAX = 21;
@@ -8,7 +10,7 @@ public class Room {
   protected int    seatsReserved;
 
   // CONSTRUCTOR
-  Room(String movieNameArg, int rowAmountArg) {
+  RoomDTO(String movieNameArg, int rowAmountArg) {
     this.rowAmount = rowAmountArg;
     this.movieName = movieNameArg;
     this.seatsReserved = 0;

@@ -1,10 +1,14 @@
-public class RoomReservedSeats  extends Room {
+package dataObject;
+
+import dataObject.RoomDTO;
+
+public class RoomReservedSeatsDTO extends RoomDTO {
 
   // DECLARATION
   private int rowsFullyReserved;
 
   // CONSTRUCTOR
-  RoomReservedSeats(String movieNameArg, int rowAmountArg) {
+  RoomReservedSeatsDTO(String movieNameArg, int rowAmountArg) {
     super(movieNameArg, rowAmountArg);
   }
 
