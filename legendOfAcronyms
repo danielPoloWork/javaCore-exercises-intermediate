@@ -1,0 +1,6 @@
+DTA (data object class)
+ENM (enumerator class)
+EXC (exception class)
+ITF (interface class)
+LGC (business logic class)
+RNB (runnable, class with main)
